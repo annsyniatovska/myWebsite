@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Anna Syniatovska</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full-width-header">
+        <header>
+            <div class="logo">Anna Syniatovska</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <div class="content-area">
+            <section class="contact-section">
+                <h1>Let's Connect</h1>
+                <p>Have a question or project in mind? Let me know.</p>
+                <form action="/thank-you" method="POST" class="contact-form" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+            <div class="photo-area">
+                <img src="https://www.shutterstock.com/image-vector/set-design-contact-me-icon-600nw-2351491367.jpg" alt="Contact">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100053627972154" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/anechkkaa_s?igsh=MTJwNXpiaGhuMmhkdw==" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <ul class="footer-nav">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+        <p>© 2024 Anna Syniatovska. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

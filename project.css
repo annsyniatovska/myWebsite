@@ -1,0 +1,168 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.full-width-header, footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: all 0.3s ease;
+        }
+
+            nav ul li a.active, nav ul li a:hover {
+                background-color: #8FBC8F;
+                border-radius: 5px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+
+#portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    #portfolio h2 {
+        font-size: 3.2em;
+        margin-bottom: 20px;
+    }
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Added to ensure projects wrap on smaller screens */
+    gap: 20px;
+}
+
+.project {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px; /* Changed from 60px for better spacing */
+    text-align: center;
+    width: 100%; /* Adjust width for better responsiveness */
+    max-width: 560px;
+    margin-bottom: 20px; /* Add margin for better spacing */
+}
+
+    .project img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .project h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    .project p {
+        color: #666;
+        font-size: 1.3em;
+        margin-top: 5px;
+    }
+
+button {
+    font-size: 20px;
+    padding: 15px 40px;
+    background-color: #8FBC8F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    button:hover {
+        background-color: #679b75;
+    }
+
+.intro-section {
+    font-size: 1.4em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 15px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+    .social-links a:hover {
+        color: #8FBC8F;
+    }
+
+.footer-nav {
+    list-style: none;
+    padding: 10px 0;
+}
+
+    .footer-nav li {
+        display: inline;
+        margin: 0 10px;
+    }
+
+    .footer-nav a {
+        color: #aaa;
+        transition: color 0.3s;
+    }
+
+        .footer-nav a:hover {
+            color: #fff;
+        }
+
+p {
+    color: #aaa;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-section {
+        width: 100%;
+        text-align: center;
+    }
+}
