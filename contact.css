@@ -131,8 +131,8 @@ button:hover {
 .photo-area img {
     width: 400px;
     height: auto; 
-    margin-bottom: 20px; 
-    margin-top: 140px;
+     margin-top: 150px;
+    margin-left: 50px;
 }
 
 footer {
