@@ -85,7 +85,7 @@ nav ul {
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 100%;
+    width: 80%;
     padding: 18px;
     margin-bottom: 15px;
     border: 2px solid #ccc;
