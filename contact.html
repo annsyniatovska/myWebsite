@@ -28,7 +28,7 @@
             <section class="contact-section">
                 <h1>Let's Connect</h1>
                 <p>Have a question or project in mind? Let me know.</p>
-                <form action="/thank-you" method="POST" class="contact-form" data-netlify="true">
+                <form id="contactForm" name="contact" method="POST" data-netlify="true" action="/thank-you.html">
                     <input type="hidden" name="form-name" value="contact">
                     <div class="input-group">
                         <label for="name">Name</label>
@@ -39,6 +39,7 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                     <button type="submit">Send Message</button>
+              
                 </form>
             </section>
             <div class="photo-area">
