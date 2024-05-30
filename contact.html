@@ -63,6 +63,26 @@
         </ul>
         <p>© 2024 Anna Syniatovska. All rights reserved.</p>
     </footer>
+  <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var form = event.target;
+
+            var data = new FormData(form);
+            fetch('/', {
+                method: 'POST',
+                body: data,
+            }).then(response => {
+                if (response.ok) {
+                    form.style.display = 'none';
+                    document.getElementById('thank-you').style.display = 'block';
+                } else {
+                    alert('There was a problem with your submission.');
+                }
+            }).catch(error => {
+                alert('There was a problem with your submission.');
+            });
+        });
+    </script>
 </body>
 </html>
-
