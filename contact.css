@@ -93,7 +93,9 @@ input[type="text"], input[type="email"], textarea {
     border-radius: 8px;
     font-size: 1em;
 }
-
+textarea {
+    height: 200px; 
+}
 button {
     font-size: 1.2em;
     padding: 10px 20px;
