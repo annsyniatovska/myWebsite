@@ -23,12 +23,12 @@
         </header>
     </div>
 
-    <main>
+   <main>
         <div class="content-area">
             <section class="contact-section">
                 <h1>Let's Connect</h1>
                 <p>Have a question or project in mind? Let me know.</p>
-                <form id="contactForm" name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+                <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify>
                     <input type="hidden" name="form-name" value="contact">
                     <div class="input-group">
                         <label for="name">Name</label>
@@ -39,8 +39,11 @@
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                     <button type="submit">Send Message</button>
-              
                 </form>
+                <div id="thank-you" style="display:none;">
+                    <h2>Thank you!</h2>
+                    <p>Your message has been sent successfully.</p>
+                </div>
             </section>
             <div class="photo-area">
                 <img src="https://www.shutterstock.com/image-vector/set-design-contact-me-icon-600nw-2351491367.jpg" alt="Contact">
