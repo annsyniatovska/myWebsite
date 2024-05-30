@@ -66,35 +66,36 @@ nav ul {
     margin-right: 20px;
 }
 
-    .contact-section h1 {
-        font-size: 3em;
-        margin-bottom: 20px;
-        color: #333;
-    }
+.contact-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
 
-    .contact-section p {
-        font-size: 1.1em;
-        margin-bottom: 30px;
-        color: #666;
-    }
+.contact-section p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #666;
+}
 
 .input-group {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 100%;
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 80%;
-    padding: 15px;
+    width: 100%;
+    padding: 18px;
     margin-bottom: 15px;
     border: 2px solid #ccc;
     border-radius: 8px;
-    font-size: 1em;
+    font-size: 18px;
 }
+
 textarea {
-    height: 200px; 
+    height: 150px; 
+    resize: none; 
 }
 button {
     font-size: 1.2em;
